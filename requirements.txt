@@ -1,3 +1,8 @@
 
-streamlit==1.33.0
+streamlit
 langchain-google-genai  # Correct latest stable version
+langchain
+langchain-community
+pypdf
+faiss-cpu
+python-dotenv==1.0.1
