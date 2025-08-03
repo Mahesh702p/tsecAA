@@ -15,7 +15,6 @@ st.set_page_config(page_title="TSEC Admission Assistant", page_icon="🎓")
 
 # Sidebar for branding and info
 with st.sidebar:
-    st.image(r"C:\Users\Lenovo\Desktop\tsecAA\assets\tsec_logo.jpg", width=200)
     st.title("TSEC Admit Assist")
     st.markdown(
         """
