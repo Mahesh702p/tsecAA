@@ -30,7 +30,8 @@ with st.sidebar:
 
 @st.cache_resource
 def setup_chain():
-    loader = PyPDFLoader(r"C:\Users\Lenovo\Desktop\tsecAA\assets\COLLEGE-INFORMATION.pdf")
+    pdf_path = "assets/COLLEGE-INFORMATION.pdf"
+    loader = PyPDFLoader(pdf_path)
     documents = loader.load()
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
     chunks = text_splitter.split_documents(documents)
